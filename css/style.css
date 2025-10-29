@@ -1,0 +1,736 @@
+*{margin:0px;padding: 0px;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 2px solid #151C36;
+    
+}
+.container-box{
+   
+}
+.container-index{
+    width: 100%;
+    max-width: auto;
+    height: 690px;
+}
+.container-index h2{
+    text-align: center;
+    font-size: clamp(24px, 3vw, 32px);
+    border-bottom: 20px solid #cc1;
+    /* font-family: 'Cristiano Isaias da Silva', 'Darlington Signature', sans-serif; */
+    font-family:'Times New Roman', Times, serif;
+    color: #151C36;
+    /* -webkit-text-stroke:1px #899; */
+}
+.container-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+.container-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.container-titulo h1{
+    color: #cc1;
+    font-size: clamp(35px, 5vw, 50px);
+    /* -webkit-text-stroke: 1px #000;  */
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.container-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+.container-img h2{
+    border: 1px solid #898989;
+}
+.container-img img{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;   
+    /* border: 1px solid; */
+    outline:3px solid #898989;
+    outline-offset: px solid #564;
+}
+.container-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+.container-menu a{
+    font-size: clamp(20px, 5vw, 10px);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    
+    
+}
+.container-menu a:hover{
+    font-size: clamp(20px, 5vw, 10px);
+    /* background-color: #c115a49f; */
+    color: #151C36;
+    /* border: 1px solid #a100ff; */
+}
+.container-hamburguer{
+    display: none;
+}
+
+.container-caixa-menu{
+    font-size: 20px;
+    text-align: center;    
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    max-width: 1500px;
+    height: 50px;
+    background: #cc1;
+    align-items: center;
+    border: 3px solid #cc1;
+}
+nav a{
+    text-decoration: none;
+    font-display:block;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a:hover{
+    color: #000;
+}
+/* ---------------------- Meio --------------------- */
+.container-midle{
+padding: 10px;
+display: flex;
+/* align-items: center; */
+/* justify-content: center; */
+/* flex-direction: row; */
+margin-top: 50px;
+}
+.container-midle1{
+    width: 100%;
+    max-width: 1500px;
+     margin: 20px 10px 10px 10px;
+    height: 650px;
+    /* background-color: black;  */
+    /* border: 1px solid #898989;   */
+    
+}
+.container-midle1 h2{
+    text-align: center;
+    margin: 20px;
+    font-size: clamp(20px, 5vw, 32px);
+    line-height: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #151C36;
+}
+.container-curso{
+    width: 100%;
+    margin-left:-8px;
+    max-width: 1550px;
+    height: 60px;
+    
+}
+.container-curso h3{
+    
+    text-align: center;    
+    font-size: clamp(20px, 3vw, 32px);     
+    background: #cc1;
+    padding-top: 5px;    
+    color: #fff;   
+    font-weight: 750;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-midle1-texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-midle1-texto p{
+    width: 100%;
+    max-width: 1000px;
+    font-size: clamp(0.2rem, 5vw, 1.1rem);
+    text-align: center;
+    line-height: 35px;
+    margin: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #151C36;
+}
+.container-curso h3{
+    /* margin:5px; */
+    font-family:'Times New Roman', Times, serif;
+    /* width: 1500px; */
+}
+.container-curso-master{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content: center; */
+    width: 1500px;
+}   
+
+.container-curso1{
+    width: 100%;
+    max-width: 725px;
+    height: 100px;
+    align-items: center;
+    flex-direction: row;
+    display: flex; 
+    margin: 60px 0px 0px 0px;
+    
+}
+.container-curso2{
+    width: 100%;
+    max-width: 725px;
+    height: 100px;
+    align-items: center;
+    flex-direction: row;
+    display: flex; 
+    margin: 60px 0px 0px 0px;
+}
+.curso1, .curso2, .curso3, .curso4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    /* height: 400px; */
+    flex-direction: column; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: clamp(0.2rem,5vw,1.1rem); 
+    color: #151C36;
+    
+}
+.curso1 span{
+    margin-top: 10px;
+}
+.curso1 img{
+    width: 100%;
+    max-width: 50px;
+        
+}
+/* .curso1 a{    
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+} */
+.curso2 img{
+    width: 100%;
+    max-width: 55px;
+    /* display: flex;
+    flex-direction: row;
+    border-radius: 20%; */
+}
+
+.curso2 a{    
+    font-size: clamp(12px, 3vw, 17px);
+    text-decoration: none;
+    color: black;
+}
+.curso3 img{
+    width: 100%;
+    max-width: 80px;
+    height: 60px;
+    /* display: flex;
+    flex-direction: row; */
+    /* border-radius: 20%; */
+    
+}
+
+.curso3 a{    
+    font-size: clamp(12px, 3vw, 17px);
+    text-decoration: none;
+    color: black;
+    /* padding: 15px; */
+}
+.curso4 img{
+    max-width: 60px;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+    /* border-radius: 20%; */
+}
+
+.curso4 a{    
+    font-size: clamp(12px, 3vw, 17px);
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------------------- Fim ---------------------- */
+.container-end{
+    width: 100%;
+    max-width: auto;
+    height: 680px;
+   /* text-align: center; */
+    margin-top: 50px;
+    /* display: flex;
+    justify-content: center; */
+}
+.container-end h1{
+    font-size: clamp(20px, 5vw, 25px);
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+     color: #151C36;
+     font-weight: 900; 
+}
+.container-end p{
+    font-size:clamp(15px, 3vw, 21px);
+    /* margin: 20px; */
+    width: 100%;
+    max-width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-end0{
+    display: flex;
+    justify-content: center;
+}
+.container-end1{
+
+    width: 100%;
+    max-width: 1490px;
+    height: 60px;
+    padding: 5px;  
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #cc1;
+    height:40px;
+    color: #fff;
+}
+
+.container-end1 h1{
+    /* font-size: clamp(20px, 5vw, 25px); */
+    padding: 5px;
+    /* text-align: center; */
+    font-size: clamp(25px, 5vw, 30px);
+   color: #fff;
+    
+}
+.container-box1{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.container-texto{
+    width: auto;
+     display: flex;
+    justify-content: center;
+}
+.container-projetos{
+   display: flex;
+  
+}
+.container-projetos1{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    /* border: 1px solid #898989; */
+    display: flex;
+    
+    
+}
+.container-websv{
+    max-width: 840px;
+    width: 100%;
+    height: 550px;
+    /* margin: 10px; */
+    /* border: 1px solid #898989; */
+    /* display: flex; */
+    
+    
+}
+.container-webs{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    gap: 5px;
+    
+}
+.container-web{
+   max-width: 400px;
+    width: 100%;
+    border: 1px solid #898989;
+    padding: 5px;
+}
+.container-web img{
+   max-width: 400px;
+   width: 100%;
+}
+.container-web a{
+    text-decoration: none;
+    color: #000;
+}
+.container-websv h3{
+    font-size: clamp(15px, 3vw, 20px);
+    /* padding-top: 30px 0px 0px 0px; */
+    
+}
+.container-rede1 img{
+    width: 100%;
+    max-width: 40px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.container-rede2 img{
+   max-width: 47px;
+   width: 100%;
+    height: 50px;
+}
+.container-rede3 img{
+   max-width: 53px;
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+}
+.container-rede-social{
+    display: flex;
+    justify-content:flex-end;
+    align-items:end;
+   margin-right: 16px;
+   /* background-color: ; */
+}
+.container-link2{
+    margin: -61px 10px 20px 80px;
+    /* border: 1px solid #898989; */
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.container-link2 h1{
+    display: flex;
+}
+.container-link3 h1{
+    display: flex;
+}
+.container-link3{
+    margin: -40px 10px 20px 80px;
+   cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+    line-height: 30px;
+}
+.container-link2 a{
+    text-decoration: none;
+    font-size:clamp(13px, 3vw, 18px);
+    color:#151C36;
+}
+.container-link2 h1{
+    font-size: clamp(1rem, 5vw, 25px);
+    
+    margin-top: 60px;
+    width: 520px;
+    text-align: center;
+}
+.container-link3 a{
+    text-decoration: none;
+    font-size:clamp(13px, 3vw, 18px);
+    color:#151C36;
+}
+.container-link3 h1{
+    font-size: clamp(18px, 5vw, 25px);
+    margin-right: 80px;
+    margin-top: -242px;
+    width: 520px;
+    /* text-align: center; */
+}
+
+/* Para telas com 900px de largura ou menos --------------------------------------------------------------*/
+@media (max-width: 900px) {
+  .menu {
+    width: 100%;
+    display: block; /* Pode ser necessário para alguns layouts */
+  }
+  .container-hamburguer{
+    display: block;
+    cursor: pointer;
+     
+  }
+  .container-hamburguer div{
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin:6px
+  }
+  .container-menu{
+    /* display: none; */
+    /* text-align: center; */
+    margin-top: 5px;
+  }
+  .container-caixa-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+   
+  }
+  .container-midle1 p{
+   line-height: 25px;
+   text-align: justify;
+   margin: 0px 0px 0px 0px;
+}
+
+.container-midle-texto{
+    width: 100%;
+    max-width: 1500px;
+}
+.container-curso1, .curso2{
+    /* flex-direction: row; */
+    height: 150px;  
+    display: flex;  
+    align-items: center;            
+}
+/* .container-curso1 .curso3, .curso4{
+    flex-direction: column;
+    height:150px;                
+} */
+.container-midle1 h2{
+    text-align: center;
+    margin: -20px 10px 10px 10px;
+    font-size: clamp(20px, 3vw, 28px);
+    line-height: 28px;
+    
+}
+.container-midle1 h3{
+    margin: 30px 0px 0px 0px;     
+}
+.container-curso-master{
+    display: flex;
+    flex-direction: column;
+}
+.curso1, .curso2, .curso3, .curso4{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: -10px 0px  0px 0px;
+
+}
+.curso1 img, .curso2 img{
+    max-width: 50px;
+    margin-bottom: 5px;     
+}
+.curso1 span, .curso2 span, .curso3 span, .curso4 span{
+    text-align: center;
+    width: 240px;
+    max-width: 240px;
+}
+.curso3 img{
+    max-width: 70px;
+    height: 45px;
+}
+.curso3 img{
+    max-width: 70px;
+    height: 45px;
+}
+.container-curso h3{
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.container-curso1{
+    
+    margin: -10px 0px 0px 0px;
+    
+}
+.container-curso2{
+    
+    margin: -10px 0px 0px 0px;
+    
+}
+.container-projetos1{
+    flex-direction: column;
+}
+.container-caixa{
+    width: 100%;
+    max-width: auto;
+    
+}
+
+.container-caixa1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 250px;
+    /* gap: 0px; */
+    /* border: 1px solid #898989; */
+}
+.container-link2 ul{
+    /* margin-left: -40px; */
+    list-style: none;
+    }
+.container-link2 {
+    margin: -40px 0px 20px 0px;
+    list-style: none;
+    position: relative;
+    
+}
+.container-link2 a{
+    text-decoration: none;
+    font-size:clamp(13px, 3vw, 18px);
+    color:#151C36;
+    display: block;
+    text-align: center;
+}
+.container-link2 h1{   
+    font-size: clamp(16px, 5vw, 18px); 
+    margin: 40px 10px 0px 5px;   
+    max-width: 222px;
+    width: 100%;
+    color: #fff;
+    background-color:#cc1;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.container-link2:hover .container-link2 {
+  display: block;
+  /* background-color: aquamarine; */
+}
+
+.container-link3 {
+    margin: 20px 10px 20px 15px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+.container-link3 ul{
+    /* margin-left: -40px; */
+    list-style: none;
+    }
+.container-link3 a{
+    text-decoration: none;
+    font-size:clamp(13px, 3vw, 18px);
+    color:#151C36;
+}
+.container-link3 h1{   
+    font-size: clamp(16px, 5vw, 18px); 
+    margin: -20px 0px 0px 0px;   
+    max-width: 285px;
+    width: 100%;
+    color: #fff;
+    background:#cc1;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.container-dropdown{
+    display: none;
+    position: absolute;
+
+}
+.container-dropdown a{
+    color:#151C36;
+    display: block;
+    line-height: 22px;
+    margin-left: 2px;
+}
+.container-dropdown a:hover{
+    background-color:#cc1;
+}
+.container-link2:hover .container-dropdown {
+  display: block;
+  }
+
+.container-dropdown2{
+    display: none;
+    position: absolute;
+
+}
+.container-dropdown2 a{
+    color:#151C36;
+    display: block;
+    line-height: 22px;
+    margin-left: 2px;
+}
+.container-dropdown2 a:hover{
+    background-color:#cc1;
+}
+.container-link3:hover .container-dropdown2 {
+  display: block;
+  }  
+
+ nav{
+    display:flex;
+    flex-direction: column ;  
+    justify-content: center;  
+    cursor: pointer;
+    align-items: center;
+    
+ }
+
+  .container-menu {
+    display: none;
+    text-align: center;
+    /* margin-top: 20px; */
+  }
+  /* .container-hamburguer{
+    margin-top: 0px;
+  } */
+   .container-menu a{
+    display:block;
+    margin-top: -10px;
+    color: #151C36;
+    font-weight: bold;
+    border-radius: 0px;
+  }
+  .container-menu{
+    margin-bottom: -120px;
+    line-height: 18px;
+  }
+  .container-nav a:hover{
+    background-color: #cc1;
+    gap: 0px;
+    color: #fff;
+  }
+  .container-midle p{
+    text-align: center;
+  }
+  .container-caixa-menu:hover .container-menu {
+    display:block;
+    
+  }
+   .container-caixa-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .container-curso1{
+    width: 406px;
+  }
+  
+  .container-curso2{
+    width: 406px;
+  }
+  .curso2 img{
+    width: 100%;
+    max-width: 55px;
+   margin-top:-30px;
+}
+ .curso4 img{
+    width: 100%;
+    max-width: 55px;
+   margin-top:-10px;
+}
+}
