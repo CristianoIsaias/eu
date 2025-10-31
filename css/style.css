@@ -57,7 +57,7 @@ body{
     border-radius: 50%;   
     /* border: 1px solid; */
     outline:3px solid #898989;
-    outline-offset: px solid #564;
+    outline-offset: red;
 }
 .container-menu{
     display: flex;
@@ -596,7 +596,7 @@ margin-top: 50px;
     text-align: center;
 }
 .container-link2 h1{   
-    font-size: cgit lamp(16px, 5vw, 18px); 
+    font-size: clamp(16px, 5vw, 18px); 
     margin: 40px 10px 0px 5px;   
     max-width: 222px;
     width: 100%;
