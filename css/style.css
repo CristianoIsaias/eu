@@ -477,35 +477,25 @@ justify-content: center;
 }
 
 .container-caixa1{
-    display: flex;
-    flex-direction: row;
+    display: flex;    
     justify-content: center;
-    align-items: flex-start;
-    height: 800px;
-    /* gap: 0px; */
-    /* border: 1px solid #898989; */
-}
-.container-link2 ul{
-    /* margin-left: -40px; */
-    list-style: none;
-    }
-.container-link2 {
-    margin: -40px 0px 20px 0px;
-    list-style: none;
-    position: relative;
+    align-items: center;
+    height: 350px;
+    /* width: 538px; */
+    flex-wrap: wrap;
     
 }
-.container-link2 a{
-    text-decoration: none;
-    font-size:clamp(13px, 3vw, 18px);
-    color:#151C36;
-    display: block;
-    text-align: center;
+.container-link2 {
+    margin: 0px 0px 20px 0px;
+    list-style: none;
+    position: relative;
+    width: 265px;
+    height: 40px;
 }
 .container-link2 h1{   
     font-size: clamp(16px, 5vw, 18px); 
-    margin: 40px 10px 0px 5px;   
-    max-width: 222px;
+    margin: -9px 0px 0px 0px;   
+    max-width: 135px;
     width: 100%;
     color: #fff;
     background-color:#cc1;
@@ -513,16 +503,41 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+.container-link2 ul{
+    /* margin-left: -40px; */
+    list-style: none;
+    }
+.container-link2 a{
+    text-decoration: none;
+    font-size:clamp(13px, 3vw, 18px);
+    color:#151C36;
+    display: block;
+    text-align: center;
+}
+
 .container-link2:hover .container-link2 {
   display: block;
   /* background-color: aquamarine; */
 }
 
 .container-link3 {
-    margin: 20px 10px 20px 15px;
+    margin: 22px -99px 20px 0px;
     list-style: none;
     position: relative;
     text-align: center;
+    width: 245px;
+    height: 40px;
+}
+.container-link3 h1{   
+    font-size: clamp(16px, 5vw, 18px); 
+    margin: -20px 0px 0px 0px;   
+    max-width: 135px;
+    width: 100%;
+    color: #fff;
+    background:#cc1;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 .container-link3 ul{
     /* margin-left: -40px; */
@@ -532,17 +547,6 @@ justify-content: center;
     text-decoration: none;
     font-size:clamp(13px, 3vw, 18px);
     color:#151C36;
-}
-.container-link3 h1{   
-    font-size: clamp(16px, 5vw, 18px); 
-    margin: -20px 0px 0px 0px;   
-    max-width: 222px;
-    width: 100%;
-    color: #fff;
-    background:#cc1;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
 }
 .container-dropdown{
     display: none;
